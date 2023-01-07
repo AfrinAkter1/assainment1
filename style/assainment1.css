@@ -34,7 +34,44 @@ padding: 21px 25px 20px 26px;
 }
 /* header end */
 
+/* about me section start */
+.border{
+   
+   border-radius: 50%;
+    height: 200px;
+    width: 200px;
+   background-image: url("../images/me.jpg");
+   background-size: cover;
+  
+}
+.section-about{
+ padding-left: 650px;
+}
+.section-about h1{
+    margin: 40px;
+    
+}
+.about-description{
+    text-align: center;
+}
+.contact-me{
+    margin-top: 16px ;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.contact-me button{
+    height: 60px;
+    color: #f5885e;
+    border: 3px solid #F15B22;
+    border-radius: 5px;
+    padding: 16px 18px;
+    font-size: 20px;
+   
+}
 
+
+
+ /* about me section end */
 /* section start */
 section{
     display: flex;
