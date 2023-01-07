@@ -1,6 +1,30 @@
 *{
     margin: 0;
 }
+/* header start */
 header{
+    height: 750px;
     background-image: url("../images/banner/banner2.png");
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 216px;
+}
+.header-title{
+    
+    font-size: 55px;
+margin-bottom: 24px;
+}
+.header-description{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    height: 64px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+border-radius: 5px;
+border: 0;
+padding: 21px 25px 20px 26px;
 }
