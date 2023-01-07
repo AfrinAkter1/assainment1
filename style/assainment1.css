@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Open Sans', sans-serif;
 }
 /* header start */
 header{
@@ -75,12 +77,9 @@ height: 723.3px;
 
 
 /* article start */
-.article1{
-
-    
-}
 .article-title{
     text-align: center;
+    font-size: 45px;
 }
 .article-subtitle{
     display: flex;
@@ -138,9 +137,59 @@ font-size: 20px;
 
 /* footer start */
 footer{
-    width: 1600px;
+    width: 1525px;
 height: 577px;
 background: #151414;
+display: flex;
+justify-content: space-between;
+}
+.footer-title{
+   padding: 130px 130px 130px 240px;
+}
+.footer-title h1{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-title p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+form{
+    color: #FFFFFF;
+}
+.form1 , .form2{
+  border: 0;
+  color: white;
+  background-color: #151414;
+  margin-bottom: 16px;
+}
+.form3{
+    width: 325px;
+height: 64px;
+
+background: #151414;
+border-radius: 5px white;
+color: white;
+font-size: 15px;
+padding-left: 10px;
+margin-bottom: 20px;
+
+}
+.btn-secondary{
+    width: 160px;
+    background-color: #FFFFFF;
+    border: 0;
+border-radius: 5px;
+color: #F15B22;
+height: 64px;
+font-size: 20px;
+}
+.footer-image{
+    text-align: left;
+}
+.footer-img{
+    padding-right: 16px;
 }
 
 
